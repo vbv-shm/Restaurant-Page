@@ -1,0 +1,160 @@
+#navigation{
+    display:flex;
+    background-color:rgb(241, 185, 5);
+    justify-content:  center;
+    margin-top: 0px;
+    border-style:double;
+    border-width: 10px;
+    border-radius: 50px;
+    border-bottom-style:hidden ;
+    border-color: rgb(2, 51, 116    );
+    
+}
+li{
+    list-style: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 50px;
+    border-style:solid;
+    border-width: 0px;
+    border-radius: 30px;
+    padding: 5px;
+    
+}
+li:hover{
+    cursor:pointer;
+}
+.backgroundimageright{
+    width:1519px;
+    height: 1134px;
+    position: absolute;
+    z-index: -10;
+    margin-top: 200px;
+;
+}
+.backgroundimageright2{
+    width:1519px;
+    height: 1134px;
+    position: absolute;
+    z-index: -10;
+    margin-top: 0px;
+;
+}
+body{
+    margin: 0px;
+    font-family: 'Cedarville Cursive';font-size: 22px;
+    background-color: rgb(2, 51, 116    );
+}
+.f1,.f2,.f3,.f4,.f5,.f6,.f7,.f8{
+    width:70px;
+    height: 70px;
+    position: absolute; 
+    top: 28px;
+    filter:contrast();
+    /* border-style:solid;
+    border-width: 0px;
+    border-radius: 30px;
+    background-color: rgb(29, 234, 190);
+    padding: 3px; */
+    
+}
+.f1:hover,.f2:hover,.f3:hover,.f4:hover,.f5:hover,.f6:hover,.f7:hover,.f8:hover{
+    filter:invert()
+}
+.f1{
+    left:30px;
+}
+.f2{
+    left:130px;
+}
+.f3{
+    left:230px;
+}
+.f4{
+    left:330px;
+}
+.f5{
+    left:1130px;
+}
+.f6{
+    left:1230px;
+}
+.f7{
+    left:1330px;
+}
+.f8{
+    left:1430px;
+}
+
+.selected{
+    background-color: rgb(74, 150, 237);
+    font-weight:"bold";
+    background-color: rgb(15, 112, 36);
+    color: rgb(241, 185, 5);
+}
+#content{
+
+    display:flex;
+    background-color:rgb(241, 185, 5);
+    width: 700px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: 900;
+    margin-left: 400px;
+    margin-top: 100px;
+    border-style:double;
+    border-width: 10px;
+    border-radius: 50px;
+    border-bottom-style:hidden ;
+    border-color: rgb(2, 51, 116    );
+}
+.contentHeading{
+    border-style:solid;
+    padding: 5px;
+    border-width: 10px;
+    border-radius: 50px;
+    /* border-bottom-style:hidden ; */
+    border-color: rgb(71, 56, 5);
+    background-color: rgb(159, 128, 24);
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 1000;
+    margin-bottom: 30px;
+    padding: 10px;
+    
+}
+.contentdata{
+    border-style:solid;
+    padding: 5px;
+    border-width: 10px;
+    border-radius: 50px;
+    /* border-bottom-style:hidden ; */
+    border-color: rgb(71, 56, 5);
+    background-color: rgb(159, 128, 24);
+    font-size: 20px;
+    margin-top: 3px;
+    width: 400px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+#footer{
+    background-color:rgb(241, 185, 5);
+    width: 500px;
+    padding-left: 200px;
+    font: 1500;
+    margin-left: 400px;
+    margin-top: 10px;
+    border-style:double;
+    border-width: 10px;
+    border-radius: 50px;
+    border-bottom-style:hidden ;
+    border-color: rgb(2, 51, 116    );  
+}
+.githubimage{
+    display: inline;
+    width: 30px;
+    height:30px;
+    /* margin-top: 20px; */
+}
